@@ -2,13 +2,24 @@
 @import "_partials/palette.css";
 @import "_partials/reset.css";
 @import "_partials/typho.css";
+@import "_partials/debug.css";
 
 /*
 -----------
 !HEADER
 ----------- 
 */
-
+header {
+  background-color: var(--blue);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+nav .hamburger {
+  display: none;
+}
 /*
 -----------
 !MAIN
