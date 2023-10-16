@@ -3,7 +3,9 @@
 !COMMON
 ----------- 
 */
-
+/* .container {
+  background-color: bisque;
+} */
 /*
 -----------
 !HEADER
@@ -54,4 +56,14 @@ nav ul li {
   height: 400px;
   background-color: lightseagreen;
   width: 500px;
+}
+/* *terza sezione */
+.partner {
+  border: 2px dotted black;
+  height: 200px;
+}
+.partner .partner-img {
+  border: 2px dotted black;
+  width: 100px;
+  height: 80px;
 }

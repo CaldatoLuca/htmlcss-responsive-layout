@@ -5,6 +5,46 @@
   padding: 0 1.25rem;
 }
 
+/* !MARGINI */
+.mb10 {
+  margin-bottom: 0.625rem;
+}
+.mb15 {
+  margin-bottom: 0.9375rem;
+}
+.mb20 {
+  margin-bottom: 1.25rem;
+}
+.mb30 {
+  margin-bottom: 1.875rem;
+}
+.mb40 {
+  margin-bottom: 2.5rem;
+}
+.mb50 {
+  margin-bottom: 3.125rem;
+}
+.mb60 {
+  margin-bottom: 3.75rem;
+}
+.mb70 {
+  margin-bottom: 4.375rem;
+}
+.mb80 {
+  margin-bottom: 5rem;
+}
+.mb90 {
+  margin-bottom: 5.625rem;
+}
+.mb100 {
+  margin-bottom: 6.25rem;
+}
+
+/* !CENTARTURA TESTO*/
+.text-center {
+  text-align: center;
+}
+
 /* !FLEX E GRIGLIE */
 .flex {
   display: flex;
