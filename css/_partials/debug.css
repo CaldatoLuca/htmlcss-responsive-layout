@@ -42,9 +42,19 @@ nav ul li {
   height: 300px;
   border: 2px dotted black;
 }
-/* section {
-  background-color: bisque;
-}
 .grid {
   background-color: blue;
-} */
+}
+/* *seconda sezione */
+.strategic-planning {
+  border: 2px dotted black;
+  height: 600px;
+  background-color: lightcoral;
+  width: 500px;
+}
+.app-developement {
+  border: 2px dotted black;
+  height: 400px;
+  background-color: lightseagreen;
+  width: 500px;
+}

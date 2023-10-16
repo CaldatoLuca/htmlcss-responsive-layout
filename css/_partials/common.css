@@ -1,5 +1,24 @@
+/* !CONTENITORI */
 .container {
   max-width: 1165px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
+}
+
+/* !FLEX E GRIGLIE */
+.flex {
+  display: flex;
+}
+.grid {
+  flex-wrap: wrap;
+  margin: 0 -0.9375rem;
+}
+.grid .grid-element {
+  margin: 0.9375rem;
+  width: calc(100% / 3 - 1.875rem);
+}
+
+/* !RESPONSIVITA' */
+.only-tablet {
+  display: none;
 }
