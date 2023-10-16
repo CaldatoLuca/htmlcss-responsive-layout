@@ -78,6 +78,9 @@ section {
   .only-tablet {
     display: block;
   }
+  .tablet-padding {
+    padding: 3.125rem 1.25rem;
+  }
   /* *seconda sezione */
   .second-section {
     flex-wrap: wrap;
@@ -114,7 +117,6 @@ section {
   /* *quinta sezione */
   .fifth-section {
     flex-wrap: wrap;
-    padding: 3.125rem 1.25rem;
   }
   .about-us,
   .linkedim {
