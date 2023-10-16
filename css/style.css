@@ -32,8 +32,8 @@ section {
   width: calc((100% / 3 - 0.9375rem) * 2);
 }
 
-/* ?SECONDA SEZIONE */
-main > section:nth-child(2) {
+/* ?SECONDA SEZIONE*/
+.second-section {
   justify-content: center;
   align-items: flex-end;
 }
@@ -49,6 +49,12 @@ main > section:nth-child(2) {
 .partner .partner-img {
   margin-right: 20px;
 }
+
+/* ?QUINTA SEZIONE */
+.fifth-section {
+  justify-content: center;
+}
+
 /*
 -----------
 !FOOTER
@@ -102,6 +108,16 @@ main > section:nth-child(2) {
 
   /* *quarta sezione */
   .fourth-section .grid-element {
+    width: 100%;
+  }
+
+  /* *quinta sezione */
+  .fifth-section {
+    flex-wrap: wrap;
+    padding: 3.125rem 1.25rem;
+  }
+  .about-us,
+  .linkedim {
     width: 100%;
   }
 }

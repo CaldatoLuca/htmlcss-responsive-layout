@@ -67,3 +67,16 @@ nav ul li {
   width: 100px;
   height: 80px;
 }
+/* *quinta sezione */
+.about-us {
+  border: 2px dotted black;
+  height: 600px;
+  background-color: lightcoral;
+  width: 500px;
+}
+.linkedim {
+  border: 2px dotted black;
+  height: 400px;
+  background-color: lightseagreen;
+  width: 500px;
+}
