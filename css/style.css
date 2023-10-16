@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 15px 0;
 }
 nav .hamburger {
   display: none;
@@ -25,7 +25,22 @@ nav .hamburger {
 !MAIN
 ----------- 
 */
+section {
+  padding: 50px 0;
+}
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.grid .grid-element {
+  margin: 15px;
+  width: calc(100% / 3 - 30px);
+}
+.grid .demo {
+  width: calc((100% / 3 - 15px) * 2);
+}
 /*
 -----------
 !FOOTER
@@ -50,6 +65,10 @@ nav .hamburger {
   }
 }
 @media screen and (max-width: 768px) {
+  .grid .grid-element,
+  .grid .demo {
+    width: 100%;
+  }
 }
 
 /* *MAIN */

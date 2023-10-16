@@ -3,9 +3,6 @@
 !COMMON
 ----------- 
 */
-.container {
-  background-color: salmon;
-}
 
 /*
 -----------
@@ -33,3 +30,21 @@ nav ul li {
   border: 2px dotted black;
   background-color: saddlebrown;
 }
+
+/*
+-----------
+!MAIN
+----------- 
+*/
+/* *prima sezione */
+.grid-element {
+  background-color: var(--light-blue);
+  height: 300px;
+  border: 2px dotted black;
+}
+/* section {
+  background-color: bisque;
+}
+.grid {
+  background-color: blue;
+} */
