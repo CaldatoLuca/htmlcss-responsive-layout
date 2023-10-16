@@ -63,7 +63,7 @@ main > section:nth-child(2) {
   /* *seconda sezione */
   .second-section {
     flex-wrap: wrap;
-    padding: 0 1.25rem;
+    padding: 3.125rem 1.25rem;
   }
   .strategic-planning,
   .app-developement {
