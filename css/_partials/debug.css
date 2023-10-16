@@ -1,17 +1,17 @@
 /*
 -----------
-!HEADER
+!COMMON
 ----------- 
 */
 .container {
   background-color: salmon;
 }
-header {
-  height: 8vh;
-}
-nav {
-  height: 8vh;
-}
+
+/*
+-----------
+!HEADER
+----------- 
+*/
 .logo {
   height: 40px;
   width: 70px;
@@ -31,5 +31,5 @@ nav ul li {
   height: 40px;
   width: 40px;
   border: 2px dotted black;
-  background-color: tomato;
+  background-color: saddlebrown;
 }

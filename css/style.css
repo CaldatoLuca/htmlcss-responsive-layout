@@ -15,7 +15,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px;
 }
 nav .hamburger {
   display: none;
@@ -31,3 +31,26 @@ nav .hamburger {
 !FOOTER
 ----------- 
 */
+
+/*
+-----------
+!RESPONSIVE
+----------- 
+*/
+/* *HEADER */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  header nav ul {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+
+/* *MAIN */
+/* *FOOTER */
