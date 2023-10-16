@@ -60,6 +60,10 @@ section {
 !FOOTER
 ----------- 
 */
+footer {
+  background-color: var(--black);
+  padding: 1.25rem 0;
+}
 
 /*
 -----------
@@ -107,6 +111,9 @@ section {
   /* *terza sezione */
   .partner {
     flex-direction: column;
+  }
+  .partner .partner-img {
+    margin-bottom: 10px;
   }
 
   /* *quarta sezione */
