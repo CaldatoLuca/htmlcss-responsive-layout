@@ -228,6 +228,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .about-us {
+    margin-bottom: 1.875rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .container {
