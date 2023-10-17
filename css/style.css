@@ -23,11 +23,18 @@
 */
 header {
   background-color: var(--blue);
+  color: white;
 }
 header nav {
   justify-content: space-between;
   padding: 0.9375rem 0;
+  align-items: center;
 }
+nav ul {
+  gap: 1.875rem;
+  align-items: center;
+}
+
 /*
 -----------
 !MAIN

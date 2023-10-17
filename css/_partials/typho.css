@@ -1,3 +1,14 @@
+/* ?common */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ?header */
+nav .hamburger i {
+  font-size: 25px;
+}
+
+/* ?main */
 .sixth-section p,
 footer p {
   white-space: pre;

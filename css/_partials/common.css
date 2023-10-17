@@ -58,6 +58,17 @@
   width: calc(100% / 3 - 1.875rem);
 }
 
+/* !BOTTONI' */
+.btn {
+  border: none;
+  border-radius: 18px;
+  padding: 11px 18px;
+}
+.btn1 {
+  background-color: white;
+  color: black;
+}
+
 /* !RESPONSIVITA' */
 .only-tablet {
   display: none;
