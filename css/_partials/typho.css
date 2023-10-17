@@ -2,6 +2,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+h2 {
+  font-size: 3rem;
+}
 h3 {
   font-size: 1.5rem;
 }
@@ -69,10 +72,24 @@ nav .hamburger i {
   font-size: 1.25rem;
 }
 .third-section h2 {
-  font-size: 3rem;
   color: var(--purple);
 }
 .partner .partner-text {
   padding: 0 40px 0 80px;
   color: white;
+}
+/* *quarta sezione */
+.fourth-section h2 {
+  color: white;
+}
+.fourth-section .grid-element div,
+.fourth-section .grid-element h3 {
+  color: var(--purple);
+}
+.fourth-section .grid-element div {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.fourth-section .grid-element p {
+  color: rgb(115, 115, 115);
 }

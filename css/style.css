@@ -98,6 +98,10 @@ section {
   height: 250px;
   object-fit: cover;
 }
+/* ?QUARTA SEZIONE */
+.fourth-section .grid-element {
+  background-color: white;
+}
 /* ?QUINTA SEZIONE */
 .fifth-section {
   justify-content: center;

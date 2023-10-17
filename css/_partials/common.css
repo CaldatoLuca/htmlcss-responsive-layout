@@ -83,7 +83,12 @@
   color: black;
   padding: 20px 23px;
 }
-
+.btn4 {
+  padding: 10px 45px;
+  border-radius: 18px;
+  background-color: var(--purple);
+  color: white;
+}
 /* !TONDO */
 .br50 {
   border-radius: 50%;
