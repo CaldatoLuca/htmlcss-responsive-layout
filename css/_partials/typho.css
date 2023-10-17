@@ -5,6 +5,9 @@ body {
 h3 {
   font-size: 1.5rem;
 }
+p {
+  line-height: 1.875rem;
+}
 
 .sixth-section p,
 footer p {
@@ -19,7 +22,6 @@ nav .hamburger i {
 /* ?main */
 /* *prima sezione */
 .first-section p {
-  line-height: 1.875rem;
   color: rgb(90, 110, 127);
   font-weight: bold;
 }
@@ -43,9 +45,6 @@ nav .hamburger i {
   width: 50%;
 }
 /* *seconda sezione */
-.second-section p {
-  line-height: 1.875rem;
-}
 .second-section .strategic-planning {
   color: white;
 }
@@ -64,4 +63,16 @@ nav .hamburger i {
 .second-section .app-developement .btn3 i {
   font-size: 1.25rem;
   font-weight: bold;
+}
+/* *terza sezione */
+.third-section p {
+  font-size: 1.25rem;
+}
+.third-section h2 {
+  font-size: 3rem;
+  color: var(--purple);
+}
+.partner .partner-text {
+  padding: 0 40px 0 80px;
+  color: white;
 }

@@ -90,12 +90,14 @@ section {
   background-color: var(--purple);
   align-items: center;
   justify-content: center;
-  padding: 0 1.25rem;
+  padding: 1.875rem 2.5rem;
+  border-radius: 45px;
 }
-.partner .partner-img {
-  margin-right: 20px;
+.partner img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
-
 /* ?QUINTA SEZIONE */
 .fifth-section {
   justify-content: center;
@@ -180,9 +182,10 @@ footer {
   /* *terza sezione */
   .partner {
     flex-direction: column;
+    text-align: center;
   }
-  .partner .partner-img {
-    margin-bottom: 10px;
+  .partner img {
+    margin-bottom: 50px;
   }
 
   /* *quarta sezione */

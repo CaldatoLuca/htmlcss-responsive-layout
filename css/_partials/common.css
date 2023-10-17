@@ -79,10 +79,14 @@
   border-radius: 25px;
 }
 .btn3 {
-  border-radius: 50px;
   background-color: var(--purple);
   color: black;
   padding: 20px 23px;
+}
+
+/* !TONDO */
+.br50 {
+  border-radius: 50%;
 }
 /* !RESPONSIVITA' */
 .only-tablet {
