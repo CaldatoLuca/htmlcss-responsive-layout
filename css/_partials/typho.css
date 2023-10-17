@@ -109,3 +109,14 @@ nav .hamburger i {
 .fifth-section .linkedim button i {
   margin-right: 7px;
 }
+/* *sesta sezione */
+.sixth-section {
+  color: white;
+}
+.sixth-section .free {
+  font-size: 6rem;
+  color: var(--yellow);
+}
+.sixth-section a {
+  color: white;
+}
