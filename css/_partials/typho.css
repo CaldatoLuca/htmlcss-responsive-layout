@@ -120,3 +120,11 @@ nav .hamburger i {
 .sixth-section a {
   color: white;
 }
+
+/* ?footer */
+footer {
+  color: white;
+}
+footer a {
+  color: var(--purple);
+}
