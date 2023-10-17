@@ -102,6 +102,10 @@ nav .hamburger i {
   line-height: 2.5rem;
   color: var(--purple);
 }
+.fifth-section .linkedim .fa-quote-right {
+  color: var(--purple);
+  font-size: 3.125rem;
+}
 .fifth-section .linkedim a {
   text-decoration: none;
   color: white;
