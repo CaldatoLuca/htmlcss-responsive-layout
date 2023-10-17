@@ -19,7 +19,7 @@ nav .hamburger i {
 /* ?main */
 /* *prima sezione */
 .first-section p {
-  line-height: 30px;
+  line-height: 1.875rem;
   color: rgb(90, 110, 127);
   font-weight: bold;
 }
@@ -31,14 +31,37 @@ nav .hamburger i {
   color: var(--blue);
 }
 .first-section i {
-  font-size: 80px;
+  font-size: 5rem;
 }
 .btn2 .fa-apple {
   color: white;
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 1.25rem;
+  margin-right: 0.625rem;
 }
 
 .first-section .demo p {
   width: 50%;
+}
+/* *seconda sezione */
+.second-section p {
+  line-height: 1.875rem;
+}
+.second-section .strategic-planning {
+  color: white;
+}
+.second-section .strategic-planning h3 {
+  font-size: 2.125rem;
+}
+.second-section .strategic-planning p {
+  padding-right: 3.75rem;
+}
+.second-section .app-developement h3 {
+  font-size: 1.5rem;
+}
+.second-section .app-developement p {
+  font-size: 1.125rem;
+}
+.second-section .app-developement .btn3 i {
+  font-size: 1.25rem;
+  font-weight: bold;
 }

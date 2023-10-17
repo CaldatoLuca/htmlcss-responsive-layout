@@ -67,7 +67,23 @@ section {
   justify-content: center;
   align-items: flex-end;
 }
-
+.second-section .strategic-planning {
+  width: 500px;
+  padding-top: 50px;
+}
+.second-section .app-developement {
+  width: 350px;
+  background-color: white;
+  padding: 1.25rem 2.5rem;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second-section .strategic-planning img,
+.second-section .app-developement img {
+  width: 75%;
+}
 /* ?TERZA SEZIONE */
 .partner {
   width: 100%;
@@ -133,9 +149,16 @@ footer {
     flex-wrap: wrap;
     padding: 3.125rem 1.25rem;
   }
-  .strategic-planning,
-  .app-developement {
+  .second-section .strategic-planning,
+  .second-section .app-developement {
     width: 100%;
+  }
+  .second-section .strategic-planning img,
+  .second-section .app-developement img {
+    width: 100%;
+  }
+  .second-section .strategic-planning p {
+    margin-bottom: 1.875rem;
   }
   /* *quarta sezione */
   .fourth-section .grid-element {
