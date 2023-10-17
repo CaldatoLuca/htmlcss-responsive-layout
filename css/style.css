@@ -105,6 +105,21 @@ section {
 /* ?QUINTA SEZIONE */
 .fifth-section {
   justify-content: center;
+  padding-top: 6.25rem;
+}
+.fifth-section .about-us {
+  width: 800px;
+  margin-right: 3.75rem;
+  padding-left: 20px;
+}
+.fifth-section .linkedim {
+  width: 300px;
+  padding-right: 20px;
+}
+.fifth-section .linkedim img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 /*
@@ -170,6 +185,11 @@ footer {
   .fourth-section .grid-element {
     width: calc(100% / 2 - 1.875rem);
   }
+  /* *quinta sezione */
+  .fifth-section .about-us,
+  .fifth-section .linkedim {
+    width: 100%;
+  }
 }
 
 /* ?MOBILE - da 0 a 768px */
@@ -204,6 +224,9 @@ footer {
   .about-us,
   .linkedim {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media screen and (max-width: 576px) {
