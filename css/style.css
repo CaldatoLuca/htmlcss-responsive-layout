@@ -44,13 +44,24 @@ main > section:nth-child(even) {
   background-color: var(--purple);
 }
 section {
-  padding: 3.125rem 0;
+  padding: 3.125rem 0 6.25rem 0;
+}
+.grid-element {
+  padding: 20px;
+  border-radius: 15px;
 }
 /* ?PRIMA SEZIONE */
 .grid .demo {
   width: calc((100% / 3 - 0.9375rem) * 2);
+  position: relative;
+  padding-bottom: 0;
 }
-
+.grid .demo img {
+  width: 250px;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
 /* ?SECONDA SEZIONE*/
 .second-section {
   justify-content: center;
@@ -103,6 +114,19 @@ footer {
   }
   .tablet-padding {
     padding: 3.125rem 1.25rem;
+  }
+  /* *prima sezione */
+  .grid .demo {
+    position: static;
+  }
+  .grid .demo img {
+    position: static;
+  }
+  .first-section .demo p {
+    width: 100%;
+  }
+  .first-section .demo .btn {
+    margin-bottom: 30px;
   }
   /* *seconda sezione */
   .second-section {

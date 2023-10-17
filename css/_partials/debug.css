@@ -6,42 +6,13 @@
 /* .container {
   background-color: bisque;
 } */
-/*
------------
-!HEADER
------------ 
-*/
-/* .logo {
-  height: 40px;
-  width: 70px;
-  border: 2px dotted black;
-  background-color: purple;
-} */
-
-/* nav ul li {
-  height: 40px;
-  width: 40px;
-  border: 2px dotted black;
-  background-color: tomato;
-} */
-/* .hamburger {
-  height: 40px;
-  width: 40px;
-  border: 2px dotted black;
-  background-color: saddlebrown;
-} */
 
 /*
 -----------
 !MAIN
 ----------- 
 */
-/* *prima sezione */
-.grid-element {
-  background-color: var(--light-blue);
-  height: 300px;
-  border: 2px dotted black;
-}
+
 /* *seconda sezione */
 .strategic-planning {
   border: 2px dotted black;

@@ -61,14 +61,21 @@
 /* !BOTTONI' */
 .btn {
   border: none;
-  border-radius: 18px;
-  padding: 11px 18px;
 }
 .btn1 {
   background-color: white;
   color: black;
+  padding: 11px 18px;
+  border-radius: 18px;
 }
-
+.btn2 {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 45px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+}
 /* !RESPONSIVITA' */
 .only-tablet {
   display: none;

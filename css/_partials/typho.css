@@ -2,14 +2,43 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-
-/* ?header */
-nav .hamburger i {
-  font-size: 25px;
+h3 {
+  font-size: 1.5rem;
 }
 
-/* ?main */
 .sixth-section p,
 footer p {
   white-space: pre;
+}
+
+/* ?header */
+nav .hamburger i {
+  font-size: 1.5625rem;
+}
+
+/* ?main */
+/* *prima sezione */
+.first-section p {
+  line-height: 30px;
+  color: rgb(90, 110, 127);
+  font-weight: bold;
+}
+.first-section .grid-element {
+  background-color: var(--light-blue);
+}
+.first-section i,
+.first-section h3 {
+  color: var(--blue);
+}
+.first-section i {
+  font-size: 80px;
+}
+.btn2 .fa-apple {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.first-section .demo p {
+  width: 50%;
 }
